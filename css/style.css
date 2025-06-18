@@ -19,7 +19,8 @@
     background-color: #548c82;
     height: auto;
     margin:0;
-    padding: 0 20px; /* Espacio lateral */                                                                                       
+    padding: 0 20px; /* Espacio lateral */
+    clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%)                                                                                           
 }
 .comunicate{
     display: flex;
@@ -57,7 +58,7 @@ ul{
     width: 25vw;
     min-width: 300px;
     background-color: #303736;
-    
+    clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%); 
 }
 
 .logo{
