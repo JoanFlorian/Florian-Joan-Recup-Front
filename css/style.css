@@ -1,3 +1,11 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    overflow: hidden;
+}
 .contacto{
     display: flex;
     flex-wrap: wrap;
@@ -15,18 +23,18 @@
     justify-content: start;
     align-items: center;
     gap:15px;
-    width: 70vw;
+    width: 100vw;
     background-color: #548c82;
     height: 40px;
     margin:0;
-    padding: 0 20px; /* Espacio lateral */
-    clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%)                                                                                           
+    padding: 0 0 0 20px; /* Espacio lateral */                                                                                          
 }
 .comunicate{
     display: flex;
     justify-content: center;
     align-items: center;
     width:30vw;
+    margin-left: auto;
     min-width:300px;
     background-color:#303736;
     height: 40px;
@@ -34,6 +42,23 @@
 }
 p{
     margin-bottom: 0;
+}
+.navbar-toggler {
+  border: 0px solid gray;
+  padding: 0.2rem 0.4rem;   /* Reduce el área clickeable */
+  font-size: 0.9rem;        /* Tamaño del ícono */
+  line-height: 1;
+  height: 30px;            
+  width: 35px;             
+}
+.navbar {
+  height: 60px; /* o la altura que quieras */
+  min-height: 0; /* para evitar altura mínima predeterminada */
+  padding-top: 0;
+  padding-bottom: 0;
+}
+.container-fluid{
+    height: 100%;
 }
 ul{
     display:flex;
@@ -45,32 +70,29 @@ ul{
     margin:0;
 }
 .menu{
-    display:flex;
-    justify-content: space-between;
     width:100vw;
-    height:10vh;
-    padding-right: 70px;
 }
 .logo-container{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 25vw;
-    min-width: 300px;
+    width: 20vw;
+    min-width: 200px;
+    height: 100%;
     background-color: #303736;
     clip-path: polygon(0 0, 100% 0, 90% 100%, 0 100%); 
 }
 
 .logo{
     width:60%;
-    max-width:350px;
-    min-width:200px;
-    height: 80%;
-    max-height: 70px;
-    min-height: 50px;
+    max-width:200px;
+    min-width:80px;
+    height: 60%;
+    max-height: 50px;
+    min-height: 30px;
 }
 .img-principal{
-    height: 83.5vh;
+    height: 84vh;
     width:100vw;
     background-image: url(../img/img-flor.png);
     background-position: center; 
@@ -85,14 +107,15 @@ ul{
     flex-wrap: wrap;
     flex-direction: column;
     position:relative;
-    bottom:100px;
+    bottom:23vh;
     left: 15vw;
     font-weight: 700;
 }
 h1{
-   font-size: clamp(24px, 4vw,55px);
-   font-weight: 900; 
+    font-size: clamp(28px, 4vw,55px);
+    font-weight: 900; 
 }
+
 .btn1{
     width:100px;
     background-color: #548C62;
@@ -102,8 +125,8 @@ h1{
 li a:hover{
     color:#548C5C !important; 
 }
-h3{
-    font-size: 20px;;
+.h3-text-index{
+    font-size:clamp(15px, 2vw,25px)!important;
 }
 .principal-content-log-in{
     height: 80vh;
@@ -124,4 +147,9 @@ input{
 }
 label{
     color:#548C5C;
+}
+.navbar-collapse.show {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0 0 8px 8px;
 }
