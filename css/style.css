@@ -7,7 +7,7 @@
     color:white;
     box-sizing: border-box;
     font-size: 14px;
-    background-color:#303736;
+    background-color:white;
 
 }
 .nuestras-redes{
@@ -17,7 +17,7 @@
     gap:15px;
     width: 70vw;
     background-color: #548c82;
-    height: auto;
+    height: 40px;
     margin:0;
     padding: 0 20px; /* Espacio lateral */
     clip-path: polygon(0 0, 100% 0, 96% 100%, 0 100%)                                                                                           
@@ -29,8 +29,8 @@
     width:30vw;
     min-width:300px;
     background-color:#303736;
-    height: auto;
-    margin-left:auto;
+    height: 40px;
+    clip-path: polygon(10% 0, 100% 0, 100% 100%, 0 100%)
 }
 p{
     margin-bottom: 0;
@@ -81,20 +81,27 @@ ul{
 
 }
 .sevicios-texto{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
     position:relative;
     bottom:100px;
-    left: 120px;
+    left: 15vw;
     font-weight: 700;
-    font-size:100px;
 }
 h1{
+   font-size: clamp(24px, 4vw,55px);
    font-weight: 900; 
 }
 .btn1{
+    width:100px;
     background-color: #548C62;
     border-radius: 0;
     border: 0px #548C62 solid;
 }
-li:hover{
-    color:#548C62; 
+li a:hover{
+    color:#548C5C !important; 
+}
+h3{
+    font-size: 20px;;
 }
