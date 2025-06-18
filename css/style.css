@@ -105,3 +105,23 @@ li a:hover{
 h3{
     font-size: 20px;;
 }
+.principal-content-log-in{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width:30vw;
+}
+input{
+    min-width: 200px;
+    height: 30px;
+}
+label{
+    color:#548C5C;
+}
