@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Registro</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body class="scroll-active">
+        <div class="logo-container">
+            <img class="logo" src="img/image.png">
+        </div>
+        <main class="principal-content">
+            <div class="principal-content-register">
+                <h2 style="font-size:20px;">Registre sus datos y pague su suscripcion anual para tener acceso a la bolsa de empleo</h2><br>
+                <div class="forms-contain">
+                <div class="form-contain">
+                    <h2 style="font-size:18px;">Informacion Personal</h2><br>
+                    <form>
+                        <div class="mb-4 w-100">
+                            <label for="documento" class="form-label text-form">No. Documento</label>
+                            <input type="number" id="documento" name="documento" class="form-control w-100" placeholder="Obligatorio">
+                        </div>
+                        <div class="mb-4 w-100">
+                            <label for="nocelular" class="form-label text-form">No. Celular</label>
+                            <input type="number" id="nocelular" name="nocelular" class="form-control w-100" placeholder="Obligatorio">
+                        </div>
+                        <div class="mb-4 w-100">
+                            <label for="profesion" class="form-label text-form">Profesion</label>
+                            <input type="text" id="profesion" name="profesion" class="form-control w-100" placeholder="Obligatorio">
+                        </div>
+                    </form>
+                </div>
+                <div class="form-contain">
+                    <h2 style="font-size:18px; color:white">I</h2><br>
+                    <form>
+                        <div class="mb-4 w-100">
+                            <label for="nombrescompletos" class="form-label text-form">Nombres Completos</label>
+                            <input type="text" id="nombrescompletos" name="nombrescompletos" class="form-control w-100" placeholder="Obligatorio">
+                        </div>
+                        <div class="mb-4 w-100">
+                            <label for="email" class="form-label text-form">Email</label>
+                            <input type="email" id="email" name="email" class="form-control w-100">
+                        </div>
+                        <div class="mb-4 w-100">
+                            <label for="contraseña" class="form-label text-form">Contraseña Min 8 Max 10 caracteres</label>
+                            <input type="password" id="contraseña" name="contraseña" class="form-control w-100" placeholder="Obligatorio">
+                        </div>
+                    </form>
+                    </div>
+            </div>
+             <div class="mb-4 w-100">
+                    <label for="perfil" class="form-label text-form">Descripcion del perfil</label>
+                    <textarea rows="5" id="perfil" name="perfil" placeholder="Describa su perfil profesional y laboral brevemente" class="form-control"></textarea>
+            </div>
+            <div class="mb-4 w-100">
+                    <label for="perfil" class="form-label text-form">Foto</label>
+                    <p class="mb-2">Tipos de archivos permitidos: JPG, JPEG, PNG, Tamaño maximo <br> 50MB, Resolucion recomendada 500px X 500px o superior<br> manteniendo el aspecto cuadrado (1:1) </p>
+                    <input type="file" class="form-control">
+            </div>
+
+
+        </main>
+        <script src="" async defer></script>
+    </body>
+</html>
